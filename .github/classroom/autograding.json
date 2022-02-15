@@ -1,11 +1,11 @@
 {
   "tests": [
     {
-      "name": " List the first name, middle initial, and last name of all employees who earn a salary greater than 27,000.",
+      "name": "Find the grains category",
       "setup": "sudo /etc/init.d/mysql start; mysql -uroot -proot < NorthwindMySqlBk.sql",
       "run": "mysql -uroot -proot < my_assignment.sql",
       "input": "",
-      "output": "5 Grains/Cereals Breads, crackers, pasta, and cereal",
+      "output": "5\tGrains/Cereals\tBreads, crackers, pasta, and cereal",
       "comparison": "included",
       "timeout": 2,
       "points": 10
