@@ -1,11 +1,11 @@
 {
   "tests": [
     {
-      "name": "Check Categories Table For Grains",
-      "setup": "sudo /etc/init.d/mysql start; mysql -uroot -proot < NorthwindMySqlBk.sql",
-      "run": "mysql -uroot -proot < my_assignment.sql",
+      "name": " List the first name, middle initial, and last name of all employees who earn a salary greater than 27,000.",
+      "setup": "sudo /etc/init.d/mysql start; mysql -uroot -proot < elmasri_company.sql",
+      "run": "mysql -uroot -proot < part_1a.sql",
       "input": "",
-      "output": "5\tGrains/Cereals\tBreads, crackers, pasta, and cereal",
+      "output": "",
       "comparison": "included",
       "timeout": 2,
       "points": 10
