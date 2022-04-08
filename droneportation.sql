@@ -2,6 +2,7 @@ CREATE DATABASE IF NOT EXISTS droneportation;
 
 use droneportation;
 
+
 create table IF NOT EXISTS AuthorizedCategory(
   AcquiredDate date,
   ExpiresDate date,
