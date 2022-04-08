@@ -1,12 +1,12 @@
+
 CREATE DATABASE IF NOT EXISTS droneportation;
 
 use droneportation;
 
-
 create table IF NOT EXISTS AuthorizedCategory(
   AcquiredDate date,
   ExpiresDate date,
-  LicenseDescription varchar(50), 
+  LicenseDescription varchar(50),
   RemotePilotID int unsigned ,
   TypeID int unsigned,  
   primary key(RemotePilotID,TypeID));
@@ -97,7 +97,7 @@ create table IF NOT EXISTS PassengerManifest(
   FlightID int unsigned, 
   PassID int unsigned,
   SeatPrice decimal(5,2),
-  primary key(FlightID,PassID)); 
+  primary key(FlightID,PassID));
 
 create table IF NOT EXISTS RemotePilot(
   FirstName varchar(25),
