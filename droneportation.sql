@@ -6,7 +6,7 @@ use droneportation;
 create table IF NOT EXISTS AuthorizedCategory(
   AcquiredDate date,
   ExpiresDate date,
-  LicenseDescription varchar(50),
+  LicenseDescription varchar(50), 
   RemotePilotID int unsigned ,
   TypeID int unsigned,  
   primary key(RemotePilotID,TypeID));
