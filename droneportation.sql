@@ -96,7 +96,7 @@ create table IF NOT EXISTS PassengerManifest(
   FlightID int unsigned, 
   PassID int unsigned,
   SeatPrice decimal(5,2),
-  primary key(FlightID,PassID));
+  primary key(FlightID,PassID)); 
 
 create table IF NOT EXISTS RemotePilot(
   FirstName varchar(25),
